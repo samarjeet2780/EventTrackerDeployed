@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <div class="task">
+        <h2 class="task-title">{{ task.title }}</h2>
+        <p class="task-description">{{ task.description }}</p>
+        <p class="due-date">Due Date: {{ task.dueDate }}</p>
+    </div>
+    
+    <a href="/">Back to Tasks</a>
+{% endblock %}

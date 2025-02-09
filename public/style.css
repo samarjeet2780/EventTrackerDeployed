@@ -1,0 +1,184 @@
+
+
+ /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3dcc6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #65430e;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#toggle-theme {
+    background-color: #2720ea;
+    color: #dedee1;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-theme:hover {
+    background-color: #1a1be8;
+}
+
+/* Main Section */
+main {
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Task List */
+.task-list {
+    margin: 30px 0;
+}
+
+.task {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #ff7b00;
+}
+
+.task-description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff7b00;
+}
+
+.due-date {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #ff7b00;
+}
+.task-dueDate11{
+
+    color: #ff7b00;
+}
+
+.task-link {
+    color: rgb(240, 20, 57);
+    text-decoration: none;
+}
+
+.task-link:hover {
+    text-decoration: underline;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+header.dark-mode {
+    background-color: #555;
+}
+
+.task.dark-mode {
+    background-color: #444;
+    border-color: #666;
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Buttons */
+#header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#logout-btn {
+    background-color: #e02020;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+#logout-btn:hover {
+    background-color: #c01818;
+}
